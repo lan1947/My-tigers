@@ -49,16 +49,11 @@
             <p>Ecxerpt: <?php the_excerpt(); ?></p>
             <hr style="background-color:#fff" border-top: "3px double #8c8c8c;";>
             <p><h2>Content:</h2> <?php the_content(); ?></p>
+            <hr>
             <p>Link: <?php wp_link_pages(); ?></p>
         </div>        
 
-    </div>    
-  
-    
-
-
-
-
+    </div>
     <?php endwhile; else : ?>
     <p><?php _e('Sorry no hay nada' ); ?></p>
     <?php endif; ?>
