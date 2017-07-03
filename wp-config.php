@@ -77,7 +77,7 @@ define( 'IMAGE_EDIT_OVERWRITE', true );
 
 define( 'WP_POST_REVISIONS', 3 );
 
-define(‘EMPTY_TRASH_DAYS’, 3 ); 
+define(‘EMPTY_TRASH_DAYS’, 0 ); 
 
 /* ¡Eso es todo, deja de editar! Feliz blogging */
 
