@@ -71,6 +71,14 @@ $table_prefix  = 'wp_';
  */
 define('WP_DEBUG', false);
 
+define( ‘WP_MEMORY_LIMIT’, ‘64M’ ); 
+
+define( 'IMAGE_EDIT_OVERWRITE', true );
+
+define( 'WP_POST_REVISIONS', 3 );
+
+define(‘EMPTY_TRASH_DAYS’, 3 ); 
+
 /* ¡Eso es todo, deja de editar! Feliz blogging */
 
 /** WordPress absolute path to the Wordpress directory. */
